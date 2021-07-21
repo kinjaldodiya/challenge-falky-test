@@ -22,7 +22,8 @@ describe('Sign Up', () => {
     cy.get('input[type="submit"]')
       .click()
 
-    cy.get('ul li')
+    cy.get('div ul li')
       .should('contain', 'Some Name - some@email.com - core - git-it')
   })
+
 })

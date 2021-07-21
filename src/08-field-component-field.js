@@ -16,7 +16,6 @@ module.exports = class extends React.Component {
   };
 
   static getDerivedStateFromProps(nextProps) {
-    console.log(nextProps);
     return { value: nextProps.value };
   }
 
